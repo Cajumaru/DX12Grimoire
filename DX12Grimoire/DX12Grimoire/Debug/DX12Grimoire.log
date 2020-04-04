@@ -1,0 +1,6 @@
+﻿  DX12Grimoire.cpp
+DX12Grimoire.obj : error LNK2019: unresolved external symbol "public: void __cdecl DirectX::ScratchImage::Release(void)" (?Release@ScratchImage@DirectX@@QAAXXZ) referenced in function "public: __thiscall DirectX::ScratchImage::~ScratchImage(void)" (??1ScratchImage@DirectX@@QAE@XZ)
+DX12Grimoire.obj : error LNK2019: unresolved external symbol "public: struct DirectX::Image const * __cdecl DirectX::ScratchImage::GetImage(unsigned int,unsigned int,unsigned int)const " (?GetImage@ScratchImage@DirectX@@QBAPBUImage@2@III@Z) referenced in function _WinMain@16
+DX12Grimoire.obj : error LNK2019: unresolved external symbol "long __cdecl DirectX::LoadFromWICFile(wchar_t const *,unsigned long,struct DirectX::TexMetadata *,class DirectX::ScratchImage &,class std::function<void __cdecl(struct IWICMetadataQueryReader *)>)" (?LoadFromWICFile@DirectX@@YAJPB_WKPAUTexMetadata@1@AAVScratchImage@1@V?$function@$$A6AXPAUIWICMetadataQueryReader@@@Z@std@@@Z) referenced in function _WinMain@16
+C:\Program Files (x86)\Windows Kits\10\DirectX\DirectXTex\Bin\Desktop_2019\x64\Debug\DirectXTex.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\iori1\Documents\ProgramingProjects\DX12\DX12Grimoire\Debug\DX12Grimoire.exe : fatal error LNK1120: 3 unresolved externals
